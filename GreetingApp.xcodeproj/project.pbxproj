@@ -14,6 +14,7 @@
 		4284B1602DCFBA0D00DFEE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1552DCFBA0D00DFEE03 /* LaunchScreen.storyboard */; };
 		4284B1612DCFBA0D00DFEE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1572DCFBA0D00DFEE03 /* Main.storyboard */; };
 		4284B16D2DD1287D00DFEE03 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B16C2DD1287D00DFEE03 /* Person.swift */; };
+		4284B1712DD139BE00DFEE03 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B1702DD139BE00DFEE03 /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4284B1592DCFBA0D00DFEE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4284B16C2DD1287D00DFEE03 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4284B1702DD139BE00DFEE03 /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4284B1512DCFBA0D00DFEE03 /* AppDelegate.swift */,
 				4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */,
 				4284B1592DCFBA0D00DFEE03 /* ViewController.swift */,
+				4284B1702DD139BE00DFEE03 /* GreetingViewModel.swift */,
 				4284B16C2DD1287D00DFEE03 /* Person.swift */,
 				4284B1572DCFBA0D00DFEE03 /* Main.storyboard */,
 				4284B1552DCFBA0D00DFEE03 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				4284B15B2DCFBA0D00DFEE03 /* AppDelegate.swift in Sources */,
 				4284B15C2DCFBA0D00DFEE03 /* SceneDelegate.swift in Sources */,
+				4284B1712DD139BE00DFEE03 /* GreetingViewModel.swift in Sources */,
 				4284B16D2DD1287D00DFEE03 /* Person.swift in Sources */,
 				4284B15D2DCFBA0D00DFEE03 /* ViewController.swift in Sources */,
 			);
