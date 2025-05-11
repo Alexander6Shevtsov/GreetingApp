@@ -13,6 +13,7 @@
 		4284B15E2DCFBA0D00DFEE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1522DCFBA0D00DFEE03 /* Assets.xcassets */; };
 		4284B1602DCFBA0D00DFEE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1552DCFBA0D00DFEE03 /* LaunchScreen.storyboard */; };
 		4284B1612DCFBA0D00DFEE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1572DCFBA0D00DFEE03 /* Main.storyboard */; };
+		4284B1632DCFBC7300DFEE03 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B1622DCFBC7300DFEE03 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4284B1562DCFBA0D00DFEE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4284B1592DCFBA0D00DFEE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4284B1622DCFBC7300DFEE03 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4284B1512DCFBA0D00DFEE03 /* AppDelegate.swift */,
 				4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */,
 				4284B1592DCFBA0D00DFEE03 /* ViewController.swift */,
+				4284B1622DCFBC7300DFEE03 /* Person.swift */,
 				4284B1572DCFBA0D00DFEE03 /* Main.storyboard */,
 				4284B1552DCFBA0D00DFEE03 /* LaunchScreen.storyboard */,
 				4284B1522DCFBA0D00DFEE03 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				4284B15B2DCFBA0D00DFEE03 /* AppDelegate.swift in Sources */,
 				4284B15C2DCFBA0D00DFEE03 /* SceneDelegate.swift in Sources */,
+				4284B1632DCFBC7300DFEE03 /* Person.swift in Sources */,
 				4284B15D2DCFBA0D00DFEE03 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
