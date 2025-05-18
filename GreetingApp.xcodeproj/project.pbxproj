@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4281BBD82DDA0C7200D8611A /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281BBD72DDA0C7200D8611A /* GreetingPresenter.swift */; };
+		4281BBDA2DDA0CA300D8611A /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281BBD92DDA0CA300D8611A /* GreetingInteractor.swift */; };
+		4281BBDC2DDA0CC200D8611A /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281BBDB2DDA0CC200D8611A /* GreetingConfigurator.swift */; };
 		4284B15B2DCFBA0D00DFEE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B1512DCFBA0D00DFEE03 /* AppDelegate.swift */; };
 		4284B15C2DCFBA0D00DFEE03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */; };
-		4284B15D2DCFBA0D00DFEE03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B1592DCFBA0D00DFEE03 /* ViewController.swift */; };
+		4284B15D2DCFBA0D00DFEE03 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284B1592DCFBA0D00DFEE03 /* GreetingViewController.swift */; };
 		4284B15E2DCFBA0D00DFEE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1522DCFBA0D00DFEE03 /* Assets.xcassets */; };
 		4284B1602DCFBA0D00DFEE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1552DCFBA0D00DFEE03 /* LaunchScreen.storyboard */; };
 		4284B1612DCFBA0D00DFEE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284B1572DCFBA0D00DFEE03 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4281BBD72DDA0C7200D8611A /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
+		4281BBD92DDA0CA300D8611A /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		4281BBDB2DDA0CC200D8611A /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
 		4284B1392DCFB97B00DFEE03 /* GreetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4284B1512DCFBA0D00DFEE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4284B1522DCFBA0D00DFEE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,7 +30,7 @@
 		4284B1542DCFBA0D00DFEE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4284B1562DCFBA0D00DFEE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4284B1592DCFBA0D00DFEE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4284B1592DCFBA0D00DFEE03 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		4284B16C2DD1287D00DFEE03 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4281BBD62DDA0B9200D8611A /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				4284B1592DCFBA0D00DFEE03 /* GreetingViewController.swift */,
+				4281BBD72DDA0C7200D8611A /* GreetingPresenter.swift */,
+				4281BBD92DDA0CA300D8611A /* GreetingInteractor.swift */,
+				4281BBDB2DDA0CC200D8611A /* GreetingConfigurator.swift */,
+			);
+			path = Greeting;
+			sourceTree = "<group>";
+		};
 		4284B1302DCFB97B00DFEE03 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +75,9 @@
 		4284B15A2DCFBA0D00DFEE03 /* GreetingApp */ = {
 			isa = PBXGroup;
 			children = (
+				4281BBD62DDA0B9200D8611A /* Greeting */,
 				4284B1512DCFBA0D00DFEE03 /* AppDelegate.swift */,
 				4284B1582DCFBA0D00DFEE03 /* SceneDelegate.swift */,
-				4284B1592DCFBA0D00DFEE03 /* ViewController.swift */,
 				4284B16C2DD1287D00DFEE03 /* Person.swift */,
 				4284B1572DCFBA0D00DFEE03 /* Main.storyboard */,
 				4284B1552DCFBA0D00DFEE03 /* LaunchScreen.storyboard */,
@@ -145,9 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4284B15B2DCFBA0D00DFEE03 /* AppDelegate.swift in Sources */,
+				4281BBDA2DDA0CA300D8611A /* GreetingInteractor.swift in Sources */,
+				4281BBDC2DDA0CC200D8611A /* GreetingConfigurator.swift in Sources */,
+				4281BBD82DDA0C7200D8611A /* GreetingPresenter.swift in Sources */,
 				4284B15C2DCFBA0D00DFEE03 /* SceneDelegate.swift in Sources */,
 				4284B16D2DD1287D00DFEE03 /* Person.swift in Sources */,
-				4284B15D2DCFBA0D00DFEE03 /* ViewController.swift in Sources */,
+				4284B15D2DCFBA0D00DFEE03 /* GreetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
